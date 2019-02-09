@@ -1,38 +1,6 @@
-<!DOCTYPE html>
-<html lang="">
+<?php require_once('php/header.php'); ?>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" type=text/css rel="stylesheet">
-    <title>Blog de Yokolat</title>
-</head>
-
-<body>
-    <div class="menu-tint menu-trigger menu-type"></div>
-    <div class="menu menu-type">
-        <div class="table">
-            <div class="cell">
-                <h1>Menu</h1>
-                <div class="hr"></div>
-                <a class="menu-item" href="index.html">Home</a>
-                <a class="menu-item">Me contacter</a>
-                <div class="hr"></div>
-                <a class="menu-item" href="ilanah.html">Ilanah Orwel</a>               
-                <a class="menu-item" href="miwa.html">Miwa Harper</a>
-                <a class="menu-item" href="mide.html">Mide Noykin</a>
-                <a class="menu-item" href="hinata.html">Hinata Sisyle</a>
-                <a class="menu-item" href="roxane.html">Roxane Valeriant</a>
-            </div>
-        </div>
-    </div>
-
-    <div id="menu-trigger" class="menu-trigger">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-
+    <!-- Content part -->
     <div class="container">
         <div class="table">
             <div class="cell">
