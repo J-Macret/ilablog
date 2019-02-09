@@ -19,8 +19,7 @@
         <a href="#"><button value="Fiche personnage" class="bouton">Fiche personnage</button></a><br>
         <a href="#"><button type="button" value="Retrouvez les derniers articles" class="bouton">Voir les derniers articles</button></a>
         </div>
-        
-<br><br>    </div>
+    </div>
 
 
 </body>

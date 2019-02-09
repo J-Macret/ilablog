@@ -67,6 +67,7 @@ body {
     overflow-x: hidden;
     font-smoothing: antialiased;
     osx-font-smoothing: grayscale;
+    background-color: #350610;
 }
 
 .center {
@@ -228,8 +229,9 @@ body {
     text-align: center;
 }
 
-
-
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+/* Contact form          */
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
 
 
 
