@@ -67,7 +67,7 @@ body {
     overflow-x: hidden;
     font-smoothing: antialiased;
     osx-font-smoothing: grayscale;
-    background-color: #350610;
+    /*background-color: #350610;*/
 }
 
 .center {
@@ -210,7 +210,7 @@ body {
     border: solid 3px #a78080;
     color: white;
     font-family: 'Great vibes', 'sans-serif';
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 400;
     padding: 10px;
     box-shadow: 3px 3px 3px black;
@@ -233,5 +233,40 @@ body {
 /* Contact form          */
 /*-=-=-=-=-=-=-=-=-=-=-=-*/
 
+input {
+    margin-bottom: 10px;
+    width: 45%;
+}
+textarea {
+    width: 45%;
+    height: 100px;
+}
+
+.form-h1 {
+    margin: 0 auto;
+    width: 45%;
+    text-align: left;
+}
 
 
+
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+/* Alert                 */
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.alert {
+    position: relative;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 45%;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+.alert-danger {
+    background-color: #C82929;
+}
+.alert-success {
+    background-color: #62C945;
+}
