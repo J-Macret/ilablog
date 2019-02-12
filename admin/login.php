@@ -31,8 +31,9 @@
                                 $user = $req->fetch();
                                 
                                 if ($user) {
-                                    $_SESSION['admin'] = $user;
-                                    header('location: ../admin1107_1402.php');
+                                    session_start();
+                                    $_SESSION['admin'] = $_POST['username'];
+                                    header('location: admin1107_1402.php');
                                 } else {
                                    $error = "Identifiants incorrect";
                                 }

@@ -194,14 +194,6 @@ body {
     box-shadow: 3px 3px 3px black;
 }
 
-.carte
-{
-    opacity: 1;
-    text-align: center;
-    font-size: 1.3em;
-    transition: 2s;
-    backface-visibility: hidden; /* Permet d'éviter de voir le bloc de dos */
-}
 
 .bouton {
     display: inline-block;
@@ -227,6 +219,33 @@ body {
 .bouton_acces {
     width: 100%;
     text-align: center;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+/* Card                  */
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.card {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    background-color: #350610;
+    border: solid 2px white;
+    box-shadow: 5px 5px 5px black;
+}
+.card > img {
+    width: 80%;
+    border: white 2px solid;
+    box-shadow: 5px 5px 5px black;
+}
+
+.card > h4 {
+    font-family: 'Raleway', sans-serif;
+}
+.card > p {
+    
 }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-*/
@@ -274,6 +293,30 @@ input.admin {
     margin: 5px auto;
     width: 50%;
     font-size: 36px;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+/* Admin article         */
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.gestion-article > a {
+    display: inline-block;
+    border: 2px solid #a78080;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin: 2%;
+}
+
+.gestion-article > a:hover {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #a78080;
+    color: #350610;
+}
+
+.gestion-article > a:hover > h2 {
+    color: #350610;
 }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-*/
