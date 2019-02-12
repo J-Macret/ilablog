@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php session_start(); 
+require_once('../php/db.php');
+require_once('../php/function.php'); ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -6,7 +9,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/style.css" type=text/css rel="stylesheet">
-    <title>Page administrateur</title>
+    <style type="text/css">
+        * {
+            z-index: auto;
+        }
+        
+        .petit {
+            margin: 0 auto;
+            width: 45%;
+            padding: 10px;
+        }
+        
+        .admin-bouton {
+            width: 15%;
+        }
+        input.admin {
+            width: 45%;
+            text-align: center;
+        }
+        .admin-h1 {
+            width: 45%;
+        }
+        .p-admin {
+            font-size: 26px;
+        }
+        .p-admin>em {
+            font-size: 15px;
+        }
+    </style>
+    <title>Edit article</title>
 
 </head>
 
