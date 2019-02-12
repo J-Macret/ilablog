@@ -20,7 +20,7 @@
                 <div class="hr"></div>
                 <a class="menu-item" href="index.php">Home</a>
                 <a class="menu-item" href="galerie.php" >Galerie</a>
-                <a class="menu-item" href="../contact.php" >Me contacter</a>
+                <a class="menu-item" href="contact.php" >Me contacter</a>
                 <div class="hr"></div>
                 <a class="menu-item" href="ilanah.php">Ilanah Orwel</a>               
                 <a class="menu-item" href="miwa.php">Miwa Harper</a>
