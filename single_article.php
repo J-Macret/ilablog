@@ -11,10 +11,13 @@ $article = getArticle($db,1, $_GET['id']); ?>
         <div class="table">
             <div class="cell">
                 <div class="content">
-                <h1><?= $article->name ?></h1>
-                <h2><?= $article->nom_personnage ?></h2>
-                <p><?= $article->content ?></p>
-                <h3>Par <?= $article->author ?></h3>
+                
+                <article>
+                    <h1><?= $article->name ?></h1>
+                    <h2><?= $article->nom_personnage ?></h2>
+                    <p><?= $article->content ?></p>
+                    <h3>Par <?= $article->author ?></h3>
+                </article>
                 </div>
                 
                 
