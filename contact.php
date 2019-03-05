@@ -7,7 +7,7 @@
     <div class="table">
         <div class="cell">  
             <div class="content">
-               
+               <h1>Contactez moi !</h1>
                 <?php if(array_key_exists('errors', $_SESSION)): ?>
                    <div class="alert alert-danger">
                        <?= implode('<br>', $_SESSION['errors']); ?>

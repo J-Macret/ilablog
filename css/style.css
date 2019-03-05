@@ -250,6 +250,29 @@ article>h1 {
     height: 10px;
 }
 
+.coin_basdroit {
+    position: absolute;
+    float: right;
+    top: 100%;
+    right: 5px;
+    width: 5%;
+}
+
+.coin_hautdroit {
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 5px;
+    width: 5%;
+}
+
+.coin_basgauche {
+    position: absolute;
+    float: left;
+    top: 100%;
+    left: 5px;
+    width: 5%;
+}
 /*-=-=-=-=-=-=-=-=-=-=-=-*/
 /* Card                  */
 /*-=-=-=-=-=-=-=-=-=-=-=-*/
@@ -260,7 +283,7 @@ article>h1 {
     width: 100%;
     align-content: center;
     justify-content: center;
-    z-index: 0;
+    z-index: 0; 
 }
 .card {
     margin: auto 20px;
@@ -273,17 +296,23 @@ article>h1 {
     z-index: 1;
 }
 .card > img {
-    width: 80%;
+    width: 60%;
     border: white 2px solid;
     box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
 }
 
 .card > h4 {
     font-family: 'Raleway', sans-serif;
 }
 
-.card > a {
+.card a {
     z-index: 2;
+}
+
+.card a:hover {
+    z-index: 2;
+    color: #a78080;
 }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-*/

@@ -30,6 +30,9 @@ $article = getArticle($db,1, $_GET['id']); ?>
                 </div>
                 <?php endif; ?>
             </div>
+            <img src="img/coin4.png" class="coin_basgauche">
+    <img src="img/coin2.png" class="coin_hautdroit">
+    <img src="img/coin3.png" class="coin_basdroit">
         </div>
 </div>
 
